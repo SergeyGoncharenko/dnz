@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>dnz541</title>
     <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="styleless.css" rel="stylesheet" />
-    
+    <link href="css/styles.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <div class="container all">
@@ -29,7 +30,12 @@
 
         <!--menu-bar-->
         <nav class="row">
-            <menu id="myTab" class="nav navbar-nav" role="navigation">
+            <menu class="navbar-header">
+                <button class="navbar-toggle navbar-right collapsed menu-btn" data-toggle="collapse" data-target="#myTab">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </menu>
+            <menu id="myTab" class="collapse navbar-collapse nav navbar-nav" role="navigation">
                 <li><a data-toggle="tab" href="#golovna">Головна</a></li>
                 <li><a data-toggle="tab" href="#proNas">Про нас</a></li>
                 <li><a data-toggle="tab" href="#kolektyv">Колектив</a></li>
@@ -44,7 +50,6 @@
             <div class="tab-content">
                 <!--golovna-->
                 <div id="golovna" class="tab-pane fade in active col-sm-12 col-md-12 col-lg-12">
-
 
                     <!--carousel-->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 slayder">
@@ -89,7 +94,7 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div><!--endcarouselslayder-->
-
+                    <!--noviny-->
                     <div class="col-md-6 col-lg-6 golovna_noviny">
 
                         <h4>Новини</h4>
@@ -119,6 +124,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
+
                 </div>
                 <!--pro nas-->
                 <div id="proNas" class="tab-pane fade tab-pane col-sm-12 col-md-12 col-lg-12 pronas">
@@ -130,7 +136,7 @@
                             Концепція закладу - це виховання дітей любов'ю, терпінням, турботою, індивідуальним підходдом до кожного. Адже дитину ми розглядаємо як найбільшу цінність в світі. Наші вихователі не просто педагоги - це люди, які протягом певного часу проживають спільне з дитиною життя, відповідають за екологію ії особистості, забеспечують почуття рівноваги та безпеки, комфорту й затишку. Ми вкладаємо в нашу роботу максимум енергії та позитивних емоцій, тому що займаємося тією справою, яку любимо і в яку віримо!
                         </i>
                     </blockquote>
-                    <div class="col-md-5 col-lg-5 pull-right rozklad">
+                    <div class="col-sm-5 col-md-5 col-lg-5 pull-right rozklad">
 
                         <h4>Розклад</h4>
                         <table class="table table-condensed table-responcive table-hover">
@@ -186,11 +192,11 @@
                         <img src="images/dsc022021_180_180.jpg" class="img-responsive" />
 
                     </div>
-                    <div class="col-md-8 col-lg-7">
+                    <div class="col-sm-7 col-md-7 col-lg-7">
                         <h4>Історія</h4>
                         <p>У 1956 році введено в діюдитячі ясла. З 1983 року їх реорганізовано в дитячі ясла-садок загальнорозвиваючого типу.</p>
                     </div>
-                    <div class="col-md-8 col-lg-7">
+                    <div class="col-sm-7 col-md-7 col-lg-7">
                         <h4>Методичні розробки</h4>
                         <p>Колектив дошкільного навчального закладу №541 здійснює роботу з дітьми віком від двох до шести років, керуючись <a href="http://www.ex.ua/407513149888">Прогамою "Дитина"</a>, та <a href="http://old.mon.gov.ua/images/files/doshkilna-cerednya/doshkilna/progr_rozv/1.pdf">Програмою розвитку дітей дошкільного віку "Впевнений старт".</a></p>
                         <p>Різноманітні посібники, новинки методичної літератури, яскраві іграшки допомогають досвідченим педагогам здійснити поставлені на кожний навчальний рік оздоровчі, виховні та освітні завдання.</p>
@@ -200,13 +206,13 @@
                         <p>Віддаємо перевагу патріотичному вихованню та розвитку духовності кожного малюка.</p>
                         <p>Активна позиція дитячого та педагогічного колективу проявляється в участі в різноманітних районних конкурсах: <i>"Київський каштанчик"</i>,<i> "Співанкова райдуга дитинства"</i>, <i>"Перші кроки"</i>, в яких неодноразово займали почесні місця.</p>
                     </div>
-                    <div class="col-md-8 col-lg-7">
+                    <div class="col-sm-7 col-md-7 col-lg-7">
                         <h4>Оздоровча робота</h4>
                         <p>Головне для нас - здоровья наших вихованців.</p>
                         <p>Організований відповідний руховий режим, денний сон під дією іонізаторів повітря, вживання імунозмічнюючих фіточаїв, різні способи загартування, індивідуальні та групові заняття з фізкультури, які проводить інструктор з фізвиховання, фізіотерапевтична долікувальна та профілактична робота з дітьми - все це має на меті зміцнити здоров'я довіреного нам малюка.</p>
                         <ul></ul>
                     </div>
-                    <div class="col-md-8 col-lg-7">
+                    <div class="col-sm-7 col-md-7 col-lg-7">
                         <h4>Харчування</h4>
                         <p>По-домашньому смачне та різноманітне трьохразове харчування організують для малят старша медсестра та чудові кухарі.</p>
                     </div>
@@ -354,20 +360,35 @@
                 </div>
                 <!--batkam-->
                 <div id="batkam" class="tab-pane fade">
-                    <div class="col-md-4 col-lg-4 pull-right">
+                    <div class="col-md-12 col-lg-12">
                         <h4>Дитяча творчість</h4>
-                        <div class="wr_img_alb">
+                        <div class="col-md-4 col-lg-4 wr_img_alb">
                             <a href="http://lorempixel.com/640/480/nature/">
                                 <img class="img-responsive" src="http://lorempixel.com/640/480/nature/" alt="" />
                             </a>
                             <a href="http://www.ex.ua/76195852">Наші діти на конкурсі</a>
                         </div>
-                        <div class="wr_img_alb">
+                        <div class="col-md-4 col-lg-4 wr_img_alb">
                             <a href="http://lorempixel.com/640/480/nature/">
-                                <img class="img-responsive img-thumbnail" src="http://lorempixel.com/640/480/nature/" alt="" />
+                                <img class="img-responsive" src="http://lorempixel.com/640/480/nature/" alt="" />
                             </a>
                             <a href="http://www.ex.ua/76196346">Фестиваль театралізованої діяльності - звіт</a>
                         </div>
+                        <div class="col-md-4 col-lg-4 wr_img_alb">
+                            <a href="http://lorempixel.com/640/480/nature/">
+                                <img class="img-responsive" src="http://lorempixel.com/640/480/nature/" alt="" />
+                            </a>
+                            <a href="#">Someone else</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <h4>Електронний запис</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="http://www.dnz.kiev.ua/">http://www.dnz.kiev.ua</a>  consequat.
+                        </p>
+
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <h4>Посилання</h4>
@@ -446,15 +467,14 @@
             <div class="container all">
                 <div class="row">
                     <small class="navbar-text">&copy; 2015 Company, Inc.</small>
-                    <div class="navbar-text fa fa-lg pull-right">
-                        <div class="pull-right">
-                            <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="icon" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="icon" href="#"><i class="fa fa-google-plus"></i></a>
-                            <a class="icon" href="#"><i class="fa fa-youtube"></i></a>
-                            <a class="icon" href="#"><i class="fa fa-instagram"></i></a>
-                            <a class="icon" href="#"><i class="fa fa-envelope-o"></i></a>
-                        </div>
+
+                    <div class="navbar-text navbar-right fa fa-lg">
+                        <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="icon" href="#"><i class="fa fa-twitter"></i></a>
+                        <a class="icon" href="#"><i class="fa fa-google-plus"></i></a>
+                        <a class="icon" href="#"><i class="fa fa-youtube"></i></a>
+                        <a class="icon" href="#"><i class="fa fa-instagram"></i></a>
+                        <a class="icon" href="#"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
